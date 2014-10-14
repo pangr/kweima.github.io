@@ -15,5 +15,6 @@ NSURL *url = [NSURL URLWithString:path];
 
 {% highlight objc %}
 NSString *path = @"http://www.example.com/data.json";
-NSURL *url = [NSURL URLWithString:path];
+NSString *legalPath = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+NSURL *url = [NSURL URLWithString:legalPath];
 {% endhighlight %}
