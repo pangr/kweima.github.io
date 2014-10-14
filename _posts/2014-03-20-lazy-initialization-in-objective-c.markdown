@@ -2,7 +2,7 @@
 layout: post
 title:  Lazy Initialization in Objective-C
 date:   2014-03-20 17:56:50
-categories: iOS Dev
+categories: [iOS Dev]
 ---
 在创建自己的类时，有时候会重写init方法，而格式一般如下：
 
