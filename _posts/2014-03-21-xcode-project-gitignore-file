@@ -2,7 +2,7 @@
 layout: post
 title:  为Xcode工程添加.gitignore文件
 date:   2014-03-21 15:56:50
-categories: iOS Dev
+categories: [Xcode]
 ---
 创建Xcode Project时，默认会为Source Control勾选上Create git repository，这样省去了自己创建Git的环节。但默认的Git会跟踪所有文件，包括一些隐藏的工程文件，而这些文件没有必要去跟踪，因为他们永远一个状态，几乎不会有变化。所以在创建工程时，不要勾选Create git repository，创建完工程后，在工程根目录创建.gitignore文件，将需要忽略的规则添加进去，然后再手动创建Git。
 
