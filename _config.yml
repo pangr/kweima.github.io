@@ -1,0 +1,16 @@
+# Site settings
+title: KWEIMA
+email: me@kweima.com
+description: > # this means to ignore newlines until "baseurl:"
+  Talk is cheap. Show me the code.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.kweima.com" # the base hostname & protocol for your site
+twitter_username: kweima
+github_username:  kweima
+
+# Build settings
+markdown: kramdown
+
+# paging
+paginate: 5 # per page
+paginate_path: "blog/page:num" # paging format
