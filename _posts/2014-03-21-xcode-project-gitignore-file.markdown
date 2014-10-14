@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  为Xcode工程添加.gitignore文件
+title:  "为Xcode工程添加.gitignore文件"
 date:   2014-03-21 15:56:50
 categories: [Xcode]
 ---
