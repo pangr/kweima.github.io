@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  正确初始化NSURL的方法
+title:  "正确初始化NSURL的方法"
 date:   2014-03-20 15:56:50
 categories: [iOS Dev]
 ---
