@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Lazy Initialization in Objective-C
+title:  "Lazy Initialization in Objective-C"
 date:   2014-03-20 17:56:50
 categories: [iOS Dev]
 ---
