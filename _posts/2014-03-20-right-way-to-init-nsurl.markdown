@@ -2,7 +2,7 @@
 layout: post
 title:  正确初始化NSURL的方法
 date:   2014-03-20 15:56:50
-categories: iOS Dev
+categories: [iOS Dev]
 ---
 一般情况下，使用包含访问地址的NSString初始化一个NSURL的方法如下：
 
