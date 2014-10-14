@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  声明属性为weak还是strong
+title:  "声明属性为weak还是strong"
 date:   2014-03-20 16:56:50
 categories: [iOS Dev]
 ---
