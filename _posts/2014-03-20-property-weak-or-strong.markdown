@@ -2,7 +2,7 @@
 layout: post
 title:  声明属性为weak还是strong
 date:   2014-03-20 16:56:50
-categories: iOS Dev
+categories: [iOS Dev]
 ---
 前几日测试App，发现内存分配一直在增加，但是不会被释放，来回切换几个视图内存就会暴增。我特意手贱一直狂点，然后App崩溃。 代码使用了ARC。之后一直在找问题所在，程序中很多地方使用多线程，修改几遍发现也不是。终于发现是delegate的strong引用出了问题。
 
